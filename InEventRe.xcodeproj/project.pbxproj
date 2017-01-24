@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B11D6D61E2CDFC9007CDBEB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D21E2CDFC9007CDBEB /* Alamofire.framework */; };
+		5B11D6D71E2CDFC9007CDBEB /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D21E2CDFC9007CDBEB /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B11D6D81E2CDFC9007CDBEB /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D31E2CDFC9007CDBEB /* Moya.framework */; };
+		5B11D6D91E2CDFC9007CDBEB /* Moya.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D31E2CDFC9007CDBEB /* Moya.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B11D6DA1E2CDFC9007CDBEB /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D41E2CDFC9007CDBEB /* Result.framework */; };
+		5B11D6DB1E2CDFC9007CDBEB /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D41E2CDFC9007CDBEB /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B11D6DC1E2CDFC9007CDBEB /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D51E2CDFC9007CDBEB /* ReSwift.framework */; };
+		5B11D6DD1E2CDFC9007CDBEB /* ReSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5B11D6D51E2CDFC9007CDBEB /* ReSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5B11D6E31E2CE001007CDBEB /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D6E21E2CE001007CDBEB /* AppState.swift */; };
+		5B11D6E61E2CE02C007CDBEB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D6E51E2CE02C007CDBEB /* User.swift */; };
+		5B11D6E81E2CE168007CDBEB /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D6E71E2CE168007CDBEB /* Action.swift */; };
+		5B11D6EA1E2CE25B007CDBEB /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D6E91E2CE25B007CDBEB /* AppReducer.swift */; };
+		5B11D6FF1E2D00C4007CDBEB /* InEventAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D6FE1E2D00C4007CDBEB /* InEventAPI.swift */; };
+		5B11D7011E2D00CD007CDBEB /* InEventProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B11D7001E2D00CD007CDBEB /* InEventProvider.swift */; };
 		5B7F93CD1E2BA58D00D04141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F93CC1E2BA58D00D04141 /* AppDelegate.swift */; };
 		5B7F93CF1E2BA58D00D04141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7F93CE1E2BA58D00D04141 /* ViewController.swift */; };
 		5B7F93D21E2BA58D00D04141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7F93D01E2BA58D00D04141 /* Main.storyboard */; };
@@ -33,7 +47,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5B11D6DE1E2CDFC9007CDBEB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5B11D6DB1E2CDFC9007CDBEB /* Result.framework in Embed Frameworks */,
+				5B11D6DD1E2CDFC9007CDBEB /* ReSwift.framework in Embed Frameworks */,
+				5B11D6D91E2CDFC9007CDBEB /* Moya.framework in Embed Frameworks */,
+				5B11D6D71E2CDFC9007CDBEB /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5B11D6D21E2CDFC9007CDBEB /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		5B11D6D31E2CDFC9007CDBEB /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		5B11D6D41E2CDFC9007CDBEB /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		5B11D6D51E2CDFC9007CDBEB /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		5B11D6E21E2CE001007CDBEB /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5B11D6E51E2CE02C007CDBEB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B11D6E71E2CE168007CDBEB /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		5B11D6E91E2CE25B007CDBEB /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		5B11D6FE1E2D00C4007CDBEB /* InEventAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InEventAPI.swift; sourceTree = "<group>"; };
+		5B11D7001E2D00CD007CDBEB /* InEventProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InEventProvider.swift; sourceTree = "<group>"; };
 		5B7F93C91E2BA58D00D04141 /* InEventRe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InEventRe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7F93CC1E2BA58D00D04141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B7F93CE1E2BA58D00D04141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +95,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B11D6DA1E2CDFC9007CDBEB /* Result.framework in Frameworks */,
+				5B11D6DC1E2CDFC9007CDBEB /* ReSwift.framework in Frameworks */,
+				5B11D6D81E2CDFC9007CDBEB /* Moya.framework in Frameworks */,
+				5B11D6D61E2CDFC9007CDBEB /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +119,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B11D6DF1E2CDFCE007CDBEB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D6E21E2CE001007CDBEB /* AppState.swift */,
+			);
+			name = State;
+			sourceTree = "<group>";
+		};
+		5B11D6E01E2CDFD5007CDBEB /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D6E91E2CE25B007CDBEB /* AppReducer.swift */,
+			);
+			name = Reducer;
+			sourceTree = "<group>";
+		};
+		5B11D6E11E2CDFEF007CDBEB /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D6E71E2CE168007CDBEB /* Action.swift */,
+			);
+			name = Action;
+			sourceTree = "<group>";
+		};
+		5B11D6E41E2CE020007CDBEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D6E51E2CE02C007CDBEB /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B11D6FD1E2D001C007CDBEB /* RESTFul */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D6FE1E2D00C4007CDBEB /* InEventAPI.swift */,
+				5B11D7001E2D00CD007CDBEB /* InEventProvider.swift */,
+			);
+			name = RESTFul;
+			sourceTree = "<group>";
+		};
 		5B7F93C01E2BA58D00D04141 = {
 			isa = PBXGroup;
 			children = (
+				5B11D6D21E2CDFC9007CDBEB /* Alamofire.framework */,
+				5B11D6D31E2CDFC9007CDBEB /* Moya.framework */,
+				5B11D6D41E2CDFC9007CDBEB /* Result.framework */,
+				5B11D6D51E2CDFC9007CDBEB /* ReSwift.framework */,
 				5B7F93CB1E2BA58D00D04141 /* InEventRe */,
 				5B7F93E01E2BA58E00D04141 /* InEventReTests */,
 				5B7F93EB1E2BA58E00D04141 /* InEventReUITests */,
@@ -97,6 +187,11 @@
 		5B7F93CB1E2BA58D00D04141 /* InEventRe */ = {
 			isa = PBXGroup;
 			children = (
+				5B11D6FD1E2D001C007CDBEB /* RESTFul */,
+				5B11D6E41E2CE020007CDBEB /* Model */,
+				5B11D6E11E2CDFEF007CDBEB /* Action */,
+				5B11D6E01E2CDFD5007CDBEB /* Reducer */,
+				5B11D6DF1E2CDFCE007CDBEB /* State */,
 				5B7F93CC1E2BA58D00D04141 /* AppDelegate.swift */,
 				5B7F93CE1E2BA58D00D04141 /* ViewController.swift */,
 				5B7F93D01E2BA58D00D04141 /* Main.storyboard */,
@@ -135,6 +230,7 @@
 				5B7F93C51E2BA58D00D04141 /* Sources */,
 				5B7F93C61E2BA58D00D04141 /* Frameworks */,
 				5B7F93C71E2BA58D00D04141 /* Resources */,
+				5B11D6DE1E2CDFC9007CDBEB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,7 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B11D6EA1E2CE25B007CDBEB /* AppReducer.swift in Sources */,
+				5B11D6E61E2CE02C007CDBEB /* User.swift in Sources */,
+				5B11D6E31E2CE001007CDBEB /* AppState.swift in Sources */,
+				5B11D6FF1E2D00C4007CDBEB /* InEventAPI.swift in Sources */,
+				5B11D7011E2D00CD007CDBEB /* InEventProvider.swift in Sources */,
 				5B7F93CF1E2BA58D00D04141 /* ViewController.swift in Sources */,
+				5B11D6E81E2CE168007CDBEB /* Action.swift in Sources */,
 				5B7F93CD1E2BA58D00D04141 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +518,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89W7776J34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = InEventRe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvmorango.InEventRe;
@@ -429,6 +535,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 89W7776J34;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = InEventRe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.edvmorango.InEventRe;
@@ -514,6 +624,7 @@
 				5B7F93F31E2BA58E00D04141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7F93F41E2BA58E00D04141 /* Build configuration list for PBXNativeTarget "InEventReTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +633,7 @@
 				5B7F93F61E2BA58E00D04141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B7F93F71E2BA58E00D04141 /* Build configuration list for PBXNativeTarget "InEventReUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +642,7 @@
 				5B7F93F91E2BA58E00D04141 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
